@@ -6,8 +6,8 @@ import "./css/index.css"
 export default () => (
   <div className="index">
     <div id="greet">
-      <div id="logo"></div>
-      <div id="greet-text">I'm Jeffrey</div>
+      <div id="logo">👨🏻‍🚀</div>
+      <h1 id="greet-text">I'm Jeffrey</h1>
     </div>
     <nav>
       <Link to="/experience">Work</Link>
@@ -19,7 +19,7 @@ export default () => (
         <title>map-left</title>
         <desc>Created with Sketch.</desc>
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-          <g id="Careers---Desktop--HiFi" transform="translate(-49.000000, -4017.000000)" fill="#5A4FFF">
+          <g id="Careers---Desktop--HiFi" transform="translate(-49.000000, -4017.000000)" fill="#FFFFFF">
             <g id="map-left" transform="translate(49.000000, 4017.000000)">
               <circle id="Oval" cx="369" cy="3" r="2.12" />
               <circle id="Oval" cx="375" cy="3" r="2.12" />
@@ -2998,12 +2998,12 @@ export default () => (
         </g>
       </svg>
     </div>
-    <div>
+    <div id="welcome">
       Welcome visitor <span>no. 245</span> to my personal site.<br></br>
       Come chat at jc2573@cornell.edu
     </div>
     <div className="about">
-      <div>About Me</div>
+      <div id="about-head">About Me</div>
       <ul>
         <li>Student @ Cornell University</li>
         <li>Passionate Developer</li>

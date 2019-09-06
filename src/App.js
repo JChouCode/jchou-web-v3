@@ -24,7 +24,6 @@ function App() {
         My interests include software/fullstack dev, and data science.
         Built with React & GraphQL"></meta>
       </Helmet>
-      <Header></Header>
       <div className="content">
         <React.Suspense fallback={<em>Loading...</em>}>
           <Router primary={false}>
@@ -35,7 +34,6 @@ function App() {
           </Router>
         </React.Suspense>
       </div>
-      <Footer></Footer>
     </Root >
   )
 }

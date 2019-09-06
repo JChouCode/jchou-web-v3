@@ -2,16 +2,8 @@
   scroll-behavior: smooth;
 }
 
-:root {
-  --primary-color: black;
-  --secondary-color: #979797;
-  --bg-color: #fff;
-}
-
-
-
 body {
-  font-family: 'Graphik', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+  font-family: 'Larsseit', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
     Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -20,213 +12,52 @@ body {
   padding: 0;
 }
 
-.post {
-  position: relative;
-  display: block;
-  text-decoration: none;
-  color: black;
-  z-index: 0;
-  border-bottom: 1px solid lightgray;
-}
-
-.back {
-  display: flex;
-  align-items: center;
-  left: 85%;
-  top: 2.1em;
-  font-size: 15px;
-  text-decoration: none;
-  color: black;
-  opacity: 1;
-}
-
-.back svg {
-  margin-left: 0.5em;
-  height: 1em;
-  width: 1em;
-  transition: 0.5s width ease-out;
-  overflow: visible;
-}
-
-.back:hover svg {
-  width: 1.5em;
-}
-
-.container {
-  width: 80%;
-  height: 100%;
-  min-height: 80vh;
-  margin: auto;
-  padding-top: 5em;
-  padding-bottom: 2em;
-  font-weight: 300;
-  line-height: 1.7em;
-
-}
-
-.container h4 {
-  font-weight: 300;
-  margin-bottom: -0.1em;
-}
-
-.container p {
-  width: 60em;
-  white-space: normal;
-}
-
-img {
-  max-width: 100%;
-}
-
-.content {
-  padding-left: 8em;
-  padding-right: 8em;
-}
-
 @font-face {
-  font-family: 'Graphik';
-  src: url('fonts/Graphik-Bold.woff2') format('woff2'),
-    url('fonts/Graphik-Bold.woff') format('woff');
-  font-weight: 500;
+  font-family: 'Larsseit';
+  src: url('fonts/Larsseit-ExtraBold.woff2') format('woff2'),
+    url('fonts/Larsseit-ExtraBold.woff') format('woff');
+  font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Graphik';
-  src: url('fonts/Graphik-BoldItalic.woff2') format('woff2'),
-    url('fonts/Graphik-BoldItalic.woff') format('woff');
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Graphik';
-  src: url('fonts/Graphik-Extralight.woff2') format('woff2'),
-    url('fonts/Graphik-Extralight.woff') format('woff');
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Graphik';
-  src: url('fonts/Graphik-LightItalic.woff2') format('woff2'),
-    url('fonts/Graphik-LightItalic.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Graphik';
-  src: url('fonts/Graphik-Medium.woff2') format('woff2'),
-    url('fonts/Graphik-Medium.woff') format('woff');
+  font-family: 'Larsseit';
+  src: url('fonts/Larsseit-Bold.woff2') format('woff2'),
+    url('fonts/Larsseit-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Graphik';
-  src: url('fonts/Graphik-Thin.woff2') format('woff2'),
-    url('fonts/Graphik-Thin.woff') format('woff');
-  font-weight: 100;
+  font-family: 'Larsseit';
+  src: url('fonts/Larsseit.woff2') format('woff2'),
+    url('fonts/Larsseit.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Graphik';
-  src: url('fonts/Graphik-Light.woff2') format('woff2'),
-    url('fonts/Graphik-Light.woff') format('woff');
+  font-family: 'Larsseit';
+  src: url('fonts/Larsseit-Medium.woff2') format('woff2'),
+    url('fonts/Larsseit-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Larsseit';
+  src: url('fonts/Larsseit-Light.woff2') format('woff2'),
+    url('fonts/Larsseit-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Graphik';
-  src: url('fonts/Graphik-ExtralightItalic.woff2') format('woff2'),
-    url('fonts/Graphik-ExtralightItalic.woff') format('woff');
-  font-weight: 200;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Graphik';
-  src: url('fonts/Graphik-ThinItalic.woff2') format('woff2'),
-    url('fonts/Graphik-ThinItalic.woff') format('woff');
+  font-family: 'Larsseit';
+  src: url('fonts/Larsseit-Thin.woff2') format('woff2'),
+    url('fonts/Larsseit-Thin.woff') format('woff');
   font-weight: 100;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Graphik';
-  src: url('fonts/Graphik-MediumItalic.woff2') format('woff2'),
-    url('fonts/Graphik-MediumItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Graphik';
-  src: url('fonts/Graphik-Semibold.woff2') format('woff2'),
-    url('fonts/Graphik-Semibold.woff') format('woff');
-  font-weight: 600;
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Graphik';
-  src: url('fonts/Graphik-SemiboldItalic.woff2') format('woff2'),
-    url('fonts/Graphik-SemiboldItalic.woff') format('woff');
-  font-weight: 600;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Graphik';
-  src: url('fonts/Graphik-Regular.woff2') format('woff2'),
-    url('fonts/Graphik-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Graphik';
-  src: url('fonts/Graphik-RegularItalic.woff2') format('woff2'),
-    url('fonts/Graphik-RegularItalic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@media only screen and (max-width: 880px) {
-  nav {
-    display: none;
-  }
-
-  .index {}
-
-  .index img {
-    width: 219px;
-    height: 168px;
-  }
-
-  .index h1 {
-    margin-top: 0.05em;
-  }
-
-  p {
-    white-space: normal;
-  }
-
-  p br {
-    display: none;
-  }
-
-  .row {
-    display: block;
-    width: 100%;
-  }
-
-  .container p {
-    width: 80%
-  }
-
-
-}
+@media only screen and (max-width: 880px) {}

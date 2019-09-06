@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, Router } from 'components/Router'
 import { NavLink } from 'react-router-dom';
-import "./css/header.css"
+// import "./css/header.css"
 
 export class Header extends React.Component {
 
