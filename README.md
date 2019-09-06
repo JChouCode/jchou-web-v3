@@ -1,7 +1,3 @@
-# jchou-web
+# jchou-web-v3
 
-
-
-![demo](demo/web-demo.gif)
-
-Revamped personal website built from scratch with React, GraphQL, GraphCMS
+Fourth exploration of my revamped personal website built from scratch with React, GraphQL, GraphCMS
