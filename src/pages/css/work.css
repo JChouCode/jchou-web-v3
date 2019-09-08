@@ -7,29 +7,73 @@
 
 .back {
   position: relative;
-  margin-top: 10em;
+  display: inline-flex;
   text-decoration: none;
   padding: 10px;
   font-weight: 500;
   color: #5A4FFF;
   border: 1px solid #5A4FFF;
   border-radius: 3px;
+  transition: all 500ms cubic-bezier(0.23, 1, 0.320, 1);
+  align-content: center;
+  align-items: center;
+}
+
+.back svg {
+  fill: #5A4FFF;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.3em;
+  transition: all 500ms cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+
+.back:hover {
+  background: #5A4FFF;
+  color: white;
+}
+
+.back:hover svg {
+  fill: white;
 }
 
 .container {
-  padding-top: 2.5rem;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 1.4rem;
-  padding-left: 1.4rem;
-  width: 100%;
-  max-width: 1200px;
+  position: relative;
+  width: 80%;
+  height: 100%;
+  min-height: 80vh;
+  margin: auto;
+  padding-top: 7em;
+  padding-bottom: 7em;
+  animation: fadein 500ms cubic-bezier(0.23, 1, 0.320, 1);
 }
 
-h1 {
+.content-wrapper {
+  margin-left: 2em;
+}
+
+.container h1 {
+  margin-top: 2.3em;
+  margin-bottom: 1.5em;
   font-size: 3.5rem;
   text-align: center;
 }
+
+ul {
+  font-size: 1.1em;
+}
+
+#experience li {
+  margin-top: 3.5em;
+}
+
+#languages {}
+
+#languages li {}
+
+#frameworks {}
+
+#frameworks li {}
 
 p {
   max-width: 50%;
@@ -37,4 +81,18 @@ p {
 
 span {
   font-weight: 500;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0
+  }
+
+  50% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
 }

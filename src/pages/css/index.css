@@ -15,6 +15,11 @@
   animation: fadein 500ms cubic-bezier(0.23, 1, 0.320, 1);
 }
 
+#Oval {
+  animation: fadein;
+
+}
+
 #OvalCA {
   fill: #ffc53c;
   transform-origin: 75px 237px;
