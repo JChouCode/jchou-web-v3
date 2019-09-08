@@ -25,7 +25,7 @@ function App() {
         Built with React & GraphQL"></meta>
       </Helmet>
       <div className="content">
-        <React.Suspense fallback={<em>Loading...</em>}>
+        <React.Suspense fallback={<div id="loading">Loading <div id="eyes">👀</div></div>}>
           <Router primary={false}>
             <ScrollToTop path="/">
               <Dynamic path="dynamic" />

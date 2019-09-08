@@ -12,6 +12,34 @@
   margin: auto;
   padding-top: 3em;
   color: white;
+  animation: fadein 1s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+#OvalCA {
+  fill: #ffc53c;
+  transform-origin: 75px 237px;
+  animation: bounce 1s ease-in-out infinite;
+}
+
+
+#OvalCU {
+  fill: #ffc53c;
+  transform-origin: 273px 201px;
+  animation: bounce 1s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 nav {
@@ -69,6 +97,22 @@ nav a:hover {
   margin-bottom: 0.5em;
 }
 
+.about li:nth-child(1) {
+  animation: fadein 2s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.about li:nth-child(2) {
+  animation: fadein 3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.about li:nth-child(3) {
+  animation: fadein 4s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.about li:nth-child(4) {
+  animation: fadein 5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
 .copyright {
   opacity: 0.5;
   position: absolute;
@@ -105,6 +149,22 @@ nav a:hover {
   width: 340px;
   height: 540px;
 }
+
+
+@keyframes fadein {
+  0% {
+    opacity: 0
+  }
+
+  50% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
 
 @keyframes hover {
   0% {

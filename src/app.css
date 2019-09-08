@@ -7,9 +7,25 @@ body {
     Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-weight: 300;
   font-size: 16px;
-  color: var(--primary-color);
+  color: white;
   margin: 0;
   padding: 0;
+}
+
+#loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+#loading #eyes {
+  display: inline-block;
+  animation: hover 250ms infinite;
 }
 
 @font-face {
@@ -58,6 +74,23 @@ body {
     url('fonts/Larsseit-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
+}
+
+@keyframes hover {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
 
 @media only screen and (max-width: 880px) {}

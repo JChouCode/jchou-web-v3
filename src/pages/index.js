@@ -21,7 +21,7 @@ export default () => (
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <g id="Careers---Desktop--HiFi" transform="translate(-49.000000, -4017.000000)" fill="#FFFFFF">
             <g id="map-left" transform="translate(49.000000, 4017.000000)">
-              <circle id="Oval" cx="369" cy="3" r="2.12" />
+              <circle id="Oval1" cx="369" cy="3" r="2.12" />
               <circle id="Oval" cx="375" cy="3" r="2.12" />
               <circle id="Oval" cx="381" cy="3" r="2.12" />
               <circle id="Oval" cx="387" cy="3" r="2.12" />
@@ -1323,7 +1323,7 @@ export default () => (
               <circle id="Oval" cx="255" cy="201" r="2.12" />
               <circle id="Oval" cx="261" cy="201" r="2.12" />
               <circle id="Oval" cx="267" cy="201" r="2.12" />
-              <circle id="Oval" cx="273" cy="201" r="2.12" />
+              <circle id="OvalCU" cx="273" cy="201" r="4" />
               <circle id="Oval" cx="279" cy="201" r="2.12" />
               <circle id="Oval" cx="57" cy="207" r="2.12" />
               <circle id="Oval" cx="63" cy="207" r="2.12" />
@@ -1500,7 +1500,7 @@ export default () => (
               <circle id="Oval" cx="243" cy="231" r="2.12" />
               <circle id="Oval" cx="249" cy="231" r="2.12" />
               <circle id="Oval" cx="69" cy="237" r="2.12" />
-              <circle id="Oval" cx="75" cy="237" r="2.12" />
+              <circle id="OvalCA" cx="75" cy="237" r="4" />
               <circle id="Oval" cx="81" cy="237" r="2.12" />
               <circle id="Oval" cx="87" cy="237" r="2.12" />
               <circle id="Oval" cx="93" cy="237" r="2.12" />
