@@ -27,6 +27,13 @@
   transition: all 500ms cubic-bezier(0.23, 1, 0.320, 1);
 }
 
+#tech {
+  position: absolute;
+  right: 5%;
+  width: 400px;
+  height: 407px;
+}
+
 
 .back:hover {
   background: #5A4FFF;
@@ -85,7 +92,7 @@ span {
 
 .footer {
   position: relative;
-  height: 8em;
+  height: 7em;
   background: #5A4FFF;
   color: white;
   font-size: 1.3em;
