@@ -83,6 +83,39 @@ span {
   font-weight: 500;
 }
 
+.footer {
+  position: relative;
+  height: 8em;
+  background: #5A4FFF;
+  color: white;
+  font-size: 1.3em;
+}
+
+.back-footer {
+  display: inline-flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.back-footer:hover svg {
+  transform: rotate(90deg);
+}
+
+.back-footer svg {
+  fill: white;
+  height: 1.3em;
+  width: 1.3em;
+  transition: all 500ms cubic-bezier(0.23, 1, 0.320, 1);
+  margin-right: 0.3em;
+  transform: rotate(-90deg);
+}
+
 @keyframes fadein {
   0% {
     opacity: 0
