@@ -12,7 +12,7 @@
   margin: auto;
   padding-top: 3em;
   color: white;
-  animation: fadein 1s cubic-bezier(0.23, 1, 0.320, 1);
+  animation: fadein 500ms cubic-bezier(0.23, 1, 0.320, 1);
 }
 
 #OvalCA {
@@ -64,7 +64,7 @@ nav a:hover {
   opacity: 0.5;
 }
 
-.content {
+.purple {
   background: #5A4FFF;
   height: 100%;
   min-height: 100vh;
